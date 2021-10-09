@@ -2,7 +2,27 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    background: darkcyan;
+    background-color: darkgray;
+}
+
+.quiz-container {
+    background-color: cornflowerblue;
+    padding: 15px;
+    max-width: 800px;
+    text-align: center;
+    margin: 250px 350px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.quiz-container h1 {
+    padding: 5px;
+    background-color: cornflowerblue;
+}
+
+.quiz-container p{
+    padding: 5px;
+    background-color: cornflowerblue;
 }
 
 .button {
@@ -12,4 +32,6 @@
     padding: 10px;
     font-size: large;
     font-weight: bold;
+    margin: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
