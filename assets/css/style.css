@@ -14,7 +14,7 @@ body {
     padding: 35px;
     max-width: 80%;
     text-align: center;
-    margin: 50px 350px;
+    margin: 85px 350px;
     border-radius: 15px;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
@@ -43,7 +43,21 @@ button {
 }
 
 button a {
-    padding: 75px;
+    padding: 55px;
     text-decoration: none;
     color: white;
+}
+
+input {
+    padding: 10px;
+}
+
+.scoreboard {
+    background-color: #f4a688;
+    padding: 35px;
+    max-width: 80%;
+    text-align: center;
+    margin: 195px 350px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
