@@ -36,7 +36,7 @@ button {
     padding: 10px;
     font-size: x-large;
     font-weight: bold;
-    margin: 55px 15px 0 65px;
+    margin: 55px 15px 0 55px;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     color: white;
     letter-spacing: 1px;
@@ -48,16 +48,24 @@ button a {
     color: white;
 }
 
-input {
-    padding: 10px;
+button a:hover {
+    padding: 55px;
+    text-decoration: none;
+    color: white;
 }
 
+input {
+    padding: 10px;
+    font-size: large;
+}
+
+/* Scoreboard Page */
 .scoreboard {
     background-color: #f4a688;
-    padding: 35px;
+    padding: 45px;
     max-width: 80%;
     text-align: center;
-    margin: 195px 350px;
+    margin: 195px 350px 0;
     border-radius: 15px;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
