@@ -15,9 +15,7 @@
   <body>
     <!--Scoreboard link & Timer box-->
     <header class="row">
-      <button id="high-scores" class="col-4">
-        <a href="./scoreboard.html">View High Scores</a>
-      </button>
+      <button id="high-scores" class="col-4">View High Scores</button>
       <div class="col-3"></div>
       <button id="timer" class="col-3">Timer:</button>
     </header>
@@ -31,10 +29,14 @@
           will be reduced.
         </p>
         <p>Highest score wins! Let's get started!</p>
-        <button id="first-question" onclick="startQuizTimer()" >First Question</button>
+        <button id="q0-a0" onclick="wrongAnswer()" >First Question</button>
+        <button id="q0-a1" >First Question</button>
+        <button id="q0-a2" onclick="wrongAnswer()" >First Question</button>
+        <button id="q0-a3" onclick="wrongAnswer()" >First Question</button>
       </div>
     </main>
 
     <script src="./script.js"></script>
+    <script src="./q1.js"></script>
   </body>
 </html>
