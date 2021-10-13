@@ -12,7 +12,7 @@ const questions = [
     },
     {
         question: 'A variable name cannot start with a ______',
-        options: ['number', 'capital', 'letter'],
+        options: ['number', 'capital', 'letter', '$'],
         answer: 'number',
     },
     {
@@ -20,11 +20,6 @@ const questions = [
         options: ['function', 'numbers', 'array', 'object'],
         answer: 'numbers',
     },
-    {
-        question: 'the <script> element linking the JavaScript in your html should be located',
-        options: ['near the top','near the middle', 'near the bottom'],
-        answer: 'near the bottom',
-    }
 ];
 
 // Start Quiz

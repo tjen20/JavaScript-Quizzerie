@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+q<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -15,9 +15,7 @@
   <body>
     <!--Scoreboard link & Timer box-->
     <header class="row">
-      <button id="high-scores" class="col-4">
-        <a href="./scoreboard.html">View High Scores</a>
-      </button>
+      <button id="high-scores" class="col-4">View High Scores</button>
       <div class="col-3"></div>
       <button id="timer" class="col-3">Timer:</button>
     </header>
@@ -25,16 +23,15 @@
     <!-- Quiz Container-->
     <main class="quiz-box">
       <div id="start" >
-        <h1>Begin the JavaScript Quiz Here!</h1>
-        <p>
-          Be advised, this is a timed quiz. If you answer incorrectly your time
-          will be reduced.
-        </p>
-        <p>Highest score wins! Let's get started!</p>
-        <button id="first-question" onclick="startQuizTimer()"><a href="./q1.html">Start</a></button>
+        <h1>A variable name can start with all except ______?</h1>    
+        <button id="q2-a1" ><a href="./q4.html">number</a></button>
+        <button id="q2-a0" onclick="wrongAnswer()" >capital</button>
+        <button id="q2-a2" onclick="wrongAnswer()" >letter</button>
+        <button id="q2-a3" onclick="wrongAnswer()" >$</button>
       </div>
     </main>
 
     <script src="./script.js"></script>
+    <script src="./q1.js"></script>
   </body>
 </html>
