@@ -17,7 +17,7 @@
     <header class="row">
       <button id="high-scores" class="col-4">View High Scores</button>
       <div class="col-3"></div>
-      <button id="timer" class="col-3">Timer:</button>
+      <button id="timer" class="col-3"></button>
     </header>
 
     <!-- Quiz Container-->
@@ -29,14 +29,16 @@
         </h1>
         <button id="q1-a0" onclick="wrongAnswer()">two-words</button>
         <button id="q1-a2" onclick="wrongAnswer()">Two-Words</button>
-        <button id="q1-a1">
-          <a href="./q3.html">twoWords</a>
-        </button>
-        <button id="q1-a3" onclick="wrongAnswer()">TwoWords</button>
+        <a href="./q3.html">
+          <button id="q1-a3">
+            twoWords
+          </button>
+          </a>
+        <button id="q1-a4" onclick="wrongAnswer()">TwoWords</button>
       </div>
     </main>
 
-    <script src="./script.js"></script>
     <script src="./q2.js"></script>
+
   </body>
 </html>

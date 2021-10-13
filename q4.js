@@ -1,8 +1,17 @@
-document.getElementById("q3-a0").innerHTML = questions[0].options[0]
-document.getElementById("q3-a1").innerHTML = questions[0].options[1]
-document.getElementById("q3-a2").innerHTML = questions[0].options[2]
-document.getElementById("q3-a3").innerHTML = questions[0].options[3]
+var startTimer = document.getElementById("timer");
 
-localStorage.getItem("time")
+var time = localStorage.getItem("time");
+var timer = setInterval(function () {
+  localStorage.setItem("time", time);
+  time = localStorage.getItem("time");
+  startTimer.innerHTML = time;
+  time--;
+  if (time < 0) {
+    clearInterval(timer);
+    window.location.href = 'scoreboard.html';
+  }
+}, 1000);
 
-console.log(time)
+function wrongAnswer(){
+    time = time-10
+}

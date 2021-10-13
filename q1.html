@@ -17,7 +17,7 @@
     <header class="row">
       <button id="high-scores" class="col-4">View High Scores</button>
       <div class="col-3"></div>
-      <button id="timer" class="col-3">Timer:</button>
+      <button id="timer" class="col-3"></button>
     </header>
 
     <!-- Quiz Container-->
@@ -25,15 +25,17 @@
       <div id="start">
         <h1>Which is the oldest of the 3 below variable options?</h1>
         <button id="q0-a0" onclick="wrongAnswer()">CONST</button>
-        <button id="q0-a1">
-          <a href="./q2.html">VAR</a>
-        </button>
+        <a href="./q2.html">
+          <button id="q0-a1">
+            VAR
+          </button>
+          </a>
         <button id="q0-a2" onclick="wrongAnswer()">LET</button>
         <button id="q0-a3" onclick="wrongAnswer()">NONE</button>
       </div>
     </main>
 
-    <script src="./script.js"></script>
     <script src="./q1.js"></script>
+
   </body>
 </html>
